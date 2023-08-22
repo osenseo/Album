@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album zdjęć</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content:center;
+        }
+        .image-box{
+            margin: 10px;
+            padding: 5px;
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .image-box:hover {
+            transform:scale(1.07);
+            transition: all 1s;
+           
+         
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-box">
+            <img src="https://cdn.pixabay.com/photo/2023/04/23/11/23/pasque-flower-7945538_640.jpg" alt="">
+            <div>Test</div>
+        </div>
+        <div class="image-box">
+            <img src="https://cdn.pixabay.com/photo/2023/08/04/08/00/coneflower-8168628_640.jpg" alt="">
+            <div>Test</div>
+        </div>
+        <div class="image-box">
+            <img src="https://cdn.pixabay.com/photo/2023/07/24/06/03/butterfly-8146310_640.jpg" alt="">
+            <div>Test</div>
+        </div>
+        <div class="image-box">
+            <img src="https://cdn.pixabay.com/photo/2023/07/26/08/55/butterfly-8150709_640.jpg" alt="">
+            <div>Test</div>
+        </div>
+        <div class="image-box">
+            <img src="https://cdn.pixabay.com/photo/2023/03/17/08/14/psychedelic-7858138_640.jpg" alt="">
+            <div>Test</div>
+        </div>
+        <div class="image-box">
+            <img src="https://cdn.pixabay.com/photo/2023/07/15/12/58/sunflower-8128779_640.jpg" alt="">
+            <div>Test</div>
+        </div>
+        <div class="image-box">
+            <img src="https://cdn.pixabay.com/photo/2023/06/30/23/35/church-8099175_640.jpg" alt="">
+            <div>Test</div>
+        </div>
+    </div>
+</body>
+</html>
